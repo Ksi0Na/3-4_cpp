@@ -1,0 +1,2 @@
+/usr/bin/ar qc libftp_analyzerd.a  CMakeFiles/libftp_analyzer.dir/sources/ftp_analyzer.cpp.o CMakeFiles/libftp_analyzer.dir/sources/broker_stats.cpp.o
+/usr/bin/ranlib libftp_analyzerd.a

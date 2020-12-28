@@ -1,0 +1,6 @@
+/home/ikarugao/Desktop/Study/C++LABS/4variants/boost-filesystem/CMakeFiles/rebuild_cache.dir
+/home/ikarugao/Desktop/Study/C++LABS/4variants/boost-filesystem/CMakeFiles/libftp_analyzer.dir
+/home/ikarugao/Desktop/Study/C++LABS/4variants/boost-filesystem/CMakeFiles/ftp_analyzer.dir
+/home/ikarugao/Desktop/Study/C++LABS/4variants/boost-filesystem/CMakeFiles/test.dir
+/home/ikarugao/Desktop/Study/C++LABS/4variants/boost-filesystem/CMakeFiles/edit_cache.dir
+/home/ikarugao/Desktop/Study/C++LABS/4variants/boost-filesystem/CMakeFiles/tests.dir
