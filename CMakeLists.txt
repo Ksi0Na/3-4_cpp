@@ -62,8 +62,8 @@ elseif(WIN32)
 endif()
 
 # ftp_analyzer executable
-add_executable(ftp_analyzer
-  ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp
+add_executable(
+        ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp
 )
 
 target_link_libraries(ftp_analyzer
@@ -72,8 +72,8 @@ target_link_libraries(ftp_analyzer
 )
 
 # unit tests
-add_executable(tests
-  ${CMAKE_CURRENT_SOURCE_DIR}/my_tests/test.cpp
+add_executable(
+        ${CMAKE_CURRENT_SOURCE_DIR}/my_tests/test.cpp
 )
 
 target_include_directories(tests 
