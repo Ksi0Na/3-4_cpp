@@ -1,3 +1,4 @@
+// Copyright 2020 Olga Molchun olgamolchun5@gmail.com
 #ifndef INCLUDE_FTP_ANALYZER_HPP_
 #define INCLUDE_FTP_ANALYZER_HPP_
 

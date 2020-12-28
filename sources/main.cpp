@@ -1,3 +1,5 @@
+// Copyright 2020 Olga Molchun olgamolchun5@gmail.com
+
 #include <ftp_analyzer.hpp>
 // STL headers
 #include <iostream>

@@ -1,3 +1,5 @@
+// Copyright 2020 Olga Molchun olgamolchun5@gmail.com
+
 #include <broker_stats.hpp>
 
 BrokerStats::BrokerStats(std::size_t total_, const std::string& account_,
