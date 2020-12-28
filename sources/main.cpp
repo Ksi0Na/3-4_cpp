@@ -1,6 +1,3 @@
-// Copyright 2018 Your Name <your_email>
-
-// ftp analyzer
 #include <ftp_analyzer.hpp>
 // STL headers
 #include <iostream>

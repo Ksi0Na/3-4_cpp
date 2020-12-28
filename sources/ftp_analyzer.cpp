@@ -1,6 +1,3 @@
-// Copyright 2018 Your Name <your_email>
-
-// ftp analyzer
 #include <ftp_analyzer.hpp>
 // boost headers
 #include <boost/filesystem.hpp>
