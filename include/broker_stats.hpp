@@ -1,5 +1,3 @@
-// Copyright 2018 Your Name <your_email>
-
 #ifndef INCLUDE_BROKER_STATS_HPP_
 #define INCLUDE_BROKER_STATS_HPP_
 

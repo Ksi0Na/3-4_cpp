@@ -1,6 +1,3 @@
-// Copyright 2018 Your Name <your_email>
-
-// gtest
 #include <gtest/gtest.h>
 // ftp analyzer
 #include <ftp_analyzer.hpp>

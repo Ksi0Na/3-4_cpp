@@ -1,5 +1,3 @@
-// Copyright 2018 Your Name <your_email>
-
 #ifndef INCLUDE_FTP_ANALYZER_HPP_
 #define INCLUDE_FTP_ANALYZER_HPP_
 
