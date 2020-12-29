@@ -25,15 +25,20 @@ int main(int argc, char* argv[]) {
         std::cout << desc << std::endl;
         return 1;
     }
-    FtpAnalyzer analyzer(vm["path_to_ftp"].as<std::string>());
-    auto stats = analyzer.analyze(std::cout);
+    try {
+        FtpAnalyzer analyzer(vm["path_to_ftp"].as<std::string>());
+        auto stats = analyzer.analyze(std::cout);
 
-    for (const auto& record : stats) {
-        std::cout << "broker: " << record.first
-            << " account: " << record.second.account
-            << " files: " << record.second.total
-            << " lastdate: " << record.second.lastDate
-            << std::endl;
+        for (const auto &record : stats) {
+            std::cout << "broker: " << record.first
+                      << " account: " << record.second.account
+                      << " files: " << record.second.total
+                      << " lastdate: " << record.second.lastDate
+                      << std::endl;
+        }
+    } catch (const  boost::filesystem::filesystem_error& err) {
+        std::cerr << "filesystem error: " << err.what() << std::endl;
+        return 2;
     }
     return 0;
 }
